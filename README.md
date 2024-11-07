@@ -18,7 +18,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 ### Software – Quartus prime
 
-### Theory
+### Theory :
 
 Implementing Boolean functions in Quartus using Verilog programming involves a systematic approach to design, synthesize, and verify digital logic functions. Here, we’ll cover the theoretical background and implementation of Boolean functions using Verilog, focusing on the functions:
 
@@ -65,7 +65,7 @@ Verify Results: Compare the output waveforms against the expected values to conf
 Conclusion: By using Quartus and Verilog programming, we can efficiently design, implement, and verify Boolean functions like F1 and F2. Quartus provides a platform for synthesizing the Verilog code into hardware, while simulation allows us to test and ensure that the functions behave as expected across all input combinations. This approach is essential for designing reliable digital systems.
 
 
-### Procedure
+### Procedure:
 
 1.	Type the program in Quartus software.
 
