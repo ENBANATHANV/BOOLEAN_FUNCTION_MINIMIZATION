@@ -101,6 +101,8 @@ endmodule
 ## TRUTH TABLE :
 ![43897a71-a058-41b3-8958-14f7a702ff8d](https://github.com/user-attachments/assets/60792edb-b6fd-48c2-b115-03b913bdb222)
 
+
+
 ![a87e3a8c-b1ec-49c9-b17c-5fc7ba8c1054](https://github.com/user-attachments/assets/972cfb03-1be1-457f-bc1e-303961fcd7ea)
 
 ## RTL OUTPUT:
