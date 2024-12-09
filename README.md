@@ -1,10 +1,10 @@
 
 
-### NAME : ENBANATHAN V
-### REG NO : 24001750
-### EXPERIMENT - 2 : BOOLEAN FUNCTION IMPLEMENTATION
+# NAME : ENBANATHAN V
+# REG NO : 24001750
+# EXPERIMENT - 2 : BOOLEAN FUNCTION IMPLEMENTATION
 
-## AIM:
+# AIM:
 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
 
@@ -12,12 +12,12 @@ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
-## Equipment Required:
+# EQUIPMENT REQUIRED:
 
 Hardware – PCs, Cyclone II , USB flasher
  Software – Quartus prime
 
-## Theory :
+# THEORY:
 
 Implementing Boolean functions in Quartus using Verilog programming involves a systematic approach to design, synthesize, and verify digital logic functions. Here, we’ll cover the theoretical background and implementation of Boolean functions using Verilog, focusing on the functions:
 
@@ -64,7 +64,7 @@ Verify Results: Compare the output waveforms against the expected values to conf
 Conclusion: By using Quartus and Verilog programming, we can efficiently design, implement, and verify Boolean functions like F1 and F2. Quartus provides a platform for synthesizing the Verilog code into hardware, while simulation allows us to test and ensure that the functions behave as expected across all input combinations. This approach is essential for designing reliable digital systems.
 
 
-## Procedure:
+# PROCEDURE:
 
 1.	Type the program in Quartus software.
 
@@ -77,7 +77,7 @@ Conclusion: By using Quartus and Verilog programming, we can efficiently design,
 5.	For different input combinations generate the timing diagram.
 
 
-## Program:
+# PROGRAM:
 
 ~~~
 module BooleanFunction (a,b,c,d,f1,f2,x,y,z,w);
@@ -98,23 +98,23 @@ assign f1=x1|x2|x3|x4|x5;
 assign f2=x6|x7|x8|x9|x10;
 endmodule
 ~~~
-## TRUTH TABLE :
+# TRUTH TABLE :
 ![43897a71-a058-41b3-8958-14f7a702ff8d](https://github.com/user-attachments/assets/60792edb-b6fd-48c2-b115-03b913bdb222)
 
 
 
 ![a87e3a8c-b1ec-49c9-b17c-5fc7ba8c1054](https://github.com/user-attachments/assets/972cfb03-1be1-457f-bc1e-303961fcd7ea)
 
-## RTL OUTPUT:
+# RTL OUTPUT:
 ![Screenshot (18)](https://github.com/user-attachments/assets/2219db3e-05d3-47ac-8047-cf797f314bc7)
 
 
-## WAVEFORM OUTPUT :
+# WAVEFORM OUTPUT :
 ![Screenshot (27) (1)](https://github.com/user-attachments/assets/910a15a3-1cde-4fa5-8cfe-61d0f474e70e)
 
 
 
-## Result:
+# Result:
 
 Thus the given logic functions are implemented using Quartus and their operations are verified using Verilog programming.
 
